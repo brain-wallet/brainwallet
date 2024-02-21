@@ -1,0 +1,25 @@
+{
+  "name": "brainwallet",
+  "version": "0.0.0",
+  "description": "brainwallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brain-wallet/brainwallet.git"
+  },
+  "keywords": [
+    "brainwallet"
+  ],
+  "author": "Melvin Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brain-wallet/brainwallet/issues"
+  },
+  "homepage": "https://github.com/brain-wallet/brainwallet#readme",
+  "dependencies": {
+  }
+}
