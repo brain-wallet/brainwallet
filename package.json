@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "brainwallet",
   "main": "index.js",
+  "bin": {
+    "brainwallet": "bin/brain.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +23,9 @@
     "url": "https://github.com/brain-wallet/brainwallet/issues"
   },
   "homepage": "https://github.com/brain-wallet/brainwallet#readme",
-  "dependencies": {}
+  "dependencies": {
+    "@brain-wallet/sha256": "^0.0.28",
+    "getpublickey": "^0.0.6",
+    "hash160": "^0.0.5"
+  }
 }
