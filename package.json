@@ -1,6 +1,6 @@
 {
   "name": "brainwallet",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "brainwallet",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,5 @@
     "url": "https://github.com/brain-wallet/brainwallet/issues"
   },
   "homepage": "https://github.com/brain-wallet/brainwallet#readme",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
