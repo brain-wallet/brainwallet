@@ -13,7 +13,7 @@ function asciiToHex(str) {
 }
 
 export default async function brain(text) {
-  let hex = asciiToHex(text)
+  const hex = asciiToHex(text)
   // console.log(secret)
 
   const sha = await sha256(hex)
@@ -24,9 +24,12 @@ export default async function brain(text) {
 
   // console.log(pubkey)
 
-  const hash = await hash160(pubkey)
+  const hash1 = await hash160(pubkey)
 
   // console.log(hash)
+  const compressed = compressPublicKey(pubkey)
 
-  return hash
+  const hash2 = await hash160(compressed)
+
+  return [hash1, hash2]
 }
