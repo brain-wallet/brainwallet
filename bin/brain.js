@@ -4,7 +4,7 @@ import brainwallet from '../index.js'
 
 const secret = process.argv[2] || 'a'
 
-console.log(secret)
+// console.log(secret)
 
 const ret = await brainwallet(secret)
 
